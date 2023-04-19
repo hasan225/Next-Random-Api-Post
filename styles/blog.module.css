@@ -1,0 +1,20 @@
+.Blog .posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+.Blog .post {
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: .4rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Blog .post p {
+    margin: .2rem 0 .6rem 0;
+    margin-top: -0.2rem;
+}

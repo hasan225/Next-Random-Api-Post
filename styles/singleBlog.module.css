@@ -1,0 +1,49 @@
+.SinglePost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    min-height: 66vh;
+    background: white;
+    color: black;
+    margin: 3rem;
+    border-radius: .4rem;
+}
+
+.SinglePost h3 {
+    font-size: 3rem;
+    background: #00adf4;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.SinglePost h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.SinglePost p {
+    font-size: 1.1rem;
+}
+
+.SinglePost div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.SinglePost div a {
+    font-size: 4rem;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}

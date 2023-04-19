@@ -1,0 +1,25 @@
+.Home h1 {
+  font-weight: bold;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.homeImages img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  transition: 0.2s;
+}
+.homeImages img:hover {
+  box-shadow: 6px 6px 18px -1px rgb(18 0 86 / 85%), -6px -6px 20px -1px rgb(56 189 228 / 57%);
+}
+
+.homeImages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 0 2rem;
+}

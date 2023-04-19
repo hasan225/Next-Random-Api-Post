@@ -1,0 +1,7 @@
+.Contact h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  padding: 2rem 0;
+}
